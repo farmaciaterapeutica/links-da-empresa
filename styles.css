@@ -1,0 +1,73 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Estilo das seções de links */
+.links {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.links h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    margin-bottom: 8px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.1em;
+}
+
+.links a:hover {
+    color: #2980b9;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
